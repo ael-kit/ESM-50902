@@ -129,7 +129,7 @@ begin
 	INH 	<= BURST_INH or ECD_INH;
 	-- SYNCをバースト波の直前に設定するために変更
 	-- SYNC 	<= BURST_SYNC and ECD_SYNC;
-	SYNC 	<= ECD_CLK and ECD_SYNC;　-- ECD_COUNT=0 && BURST_COUNT=0
+	SYNC 	<= ECD_CLK and ECD_SYNC;-- ECD_COUNT=0 && BURST_COUNT=0
 	ECD 	<= Q_ECD;
 
 end Behavioral;
