@@ -1,0 +1,57 @@
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# File: C:\Users\miyam\OneDrive\Documents\HDL\ESM50902_24chCoilDriver\project\ESM50902_24chCoilDriver_pinconfig.csv
+# Generated on: Sat May 22 10:36:53 2021
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair,Strict Preservation
+AMP[1],Output,PIN_20,1,PIN_20,3.3-V LVTTL,,,,
+AMP[0],Output,PIN_19,1,PIN_19,3.3-V LVTTL,,,,
+CH[2],Output,PIN_14,1,PIN_14,3.3-V LVTTL,,,,
+CH[1],Output,PIN_15,1,PIN_15,3.3-V LVTTL,,,,
+CH[0],Output,PIN_16,1,PIN_16,3.3-V LVTTL,,,,
+CLK,Input,PIN_18,1,PIN_18,3.3-V LVTTL,,,,
+CS[6],Output,PIN_8,1,PIN_8,3.3-V LVTTL,,,,
+CS[5],Output,PIN_7,1,PIN_7,3.3-V LVTTL,,,,
+CS[4],Output,PIN_6,1,PIN_6,3.3-V LVTTL,,,,
+CS[3],Output,PIN_5,1,PIN_5,3.3-V LVTTL,,,,
+CS[2],Output,PIN_4,1,PIN_4,3.3-V LVTTL,,,,
+CS[1],Output,PIN_3,1,PIN_3,3.3-V LVTTL,,,,
+CS[0],Output,PIN_2,1,PIN_2,3.3-V LVTTL,,,,
+D[4],Output,PIN_61,2,PIN_61,3.3-V LVTTL,,,,
+D[3],Output,PIN_58,2,PIN_58,3.3-V LVTTL,,,,
+D[2],Output,PIN_57,2,PIN_57,3.3-V LVTTL,,,,
+D[1],Output,PIN_56,2,PIN_56,3.3-V LVTTL,,,,
+FSEL,Output,PIN_71,2,PIN_71,3.3-V LVTTL,,,,
+FSYNC,Output,PIN_75,2,PIN_75,3.3-V LVTTL,,,,
+LOW_BAT,Input,PIN_12,1,PIN_12,3.3V Schmitt Trigger Input,,,,
+MCLK,Input,PIN_64,2,PIN_64,3.3-V LVTTL,,,,
+OE,Output,PIN_17,1,PIN_17,3.3-V LVTTL,,,,
+PSEL,Output,PIN_70,2,PIN_70,3.3-V LVTTL,,,,
+RESET,Output,PIN_72,2,PIN_72,3.3-V LVTTL,,,,
+SCLK,Output,PIN_74,2,PIN_74,3.3-V LVTTL,,,,
+SDATA,Output,PIN_73,2,PIN_73,3.3-V LVTTL,,,,
+SEL_ANALOG,Output,PIN_26,1,PIN_26,3.3-V LVTTL,,,,
+SEL_EXT,Output,PIN_27,1,PIN_27,3.3-V LVTTL,,,,
+SW[5],Input,PIN_51,1,PIN_51,3.3V Schmitt Trigger Input,,,,
+SW[4],Input,PIN_55,2,PIN_55,3.3V Schmitt Trigger Input,,,,
+SW[3],Input,PIN_54,2,PIN_54,3.3V Schmitt Trigger Input,,,,
+SW[2],Input,PIN_53,2,PIN_53,3.3V Schmitt Trigger Input,,,,
+SW[1],Input,PIN_52,2,PIN_52,3.3V Schmitt Trigger Input,,,,
+SYNC,Output,PIN_66,2,PIN_66,3.3-V LVTTL,,,,
+ZOUT,Output,PIN_21,1,PIN_21,3.3-V LVTTL,,,,

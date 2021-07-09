@@ -2,7 +2,14 @@
 
 ### 概要
 
-このリポジトリは、Phantom Driverを駆動するためのCPLDのHDLのためのものです。
+このリポジトリは、ESM50902　コイルドライバ　のためのコードです。
+
+もとになったのは、SHI向けファントムドライバのHDLコードです。
+
+
+同期信号の位置が変更。
+- 最初のバースト波の1波目
+
 
 下記に示すリソースがあります。
 
@@ -11,7 +18,8 @@
 - 概略のタイミング図（動作の理解として）
 - Top Level Entity のテストベンチ
 - Quartus Primeでコンパイルするためのプロジェクトファイルなど
-  - 最低限必要なModelSIM実行のためのファイル
+  - 最低限必要なModelSIM実行のためのテストベンチコード
+  - 波形観測用の設定(.do)など
 - ピンアサインデータ
 - ピンの名前と機能
 
@@ -48,14 +56,3 @@ __I1/I2_SW, x1/x2_SW__ : これらの入力はECD出力電流を設定するた�
 - ブロック図を編集する場合は[こちら](https://drive.google.com/file/d/1guEd1JOVNZys2o42kFn0YsHypVKk4kI3/view?usp=sharing)をクリックしてください。 GoogleDrive でのプレビューから　draw.io　へのリンクが表示されます。
 - 図面内に編集した人の名前、日付、変更内容を10ポイント程度の小さめの文字で右下に記載してください。
 - 編集し終わったら、保存し、File - Export As... からPDFとPNG型式でこのリポジトリに直接アップロード(コミット)してください。
-
-## 概略タイミング図
-![](TimingChart_overAll.svg)
-
-（ECD_NUMBER=50, BURST_MARK=2, BURST_SPACE=1, SYNC_PULSE_START=2　の場合）
-
-- 各バーストの波数とスペースは任意に設定可能:__BURST_MARK, BURST_SPACE__
-- SYNCパルスのパルス幅はCLK幅の整数倍（バースト波のトータル波数以下）で設定可能:__SYNC_PULSE_START__
-  - ただし、off-setの位置はECD=0のスタート前で固定
-- ECD数も設定可能:__ECD_NUMBER__
-  - 実際の駆動するECD数+1までカウントして、最後の１つ分の時間は休み（出力なし）としている。

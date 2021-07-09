@@ -46,8 +46,9 @@ project/incremental_db/README
 # simulator settings
 !**/*.do
 
-# text file located on the 'project' directory
+# text file and csv file located on the 'project' directory
 !/project/*.txt
+!/project/*.csv
 
 # diagrams
 !*.svg
