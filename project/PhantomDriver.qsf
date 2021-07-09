@@ -1,0 +1,110 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 08:14:32  May 07, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		PhantomDriver_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE 5M160ZT100I5
+set_global_assignment -name TOP_LEVEL_ENTITY PhantomDriver
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:14:32  MAY 07, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 100
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 5
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_location_assignment PIN_20 -to AMP[1]
+set_location_assignment PIN_19 -to AMP[0]
+set_location_assignment PIN_14 -to CH[2]
+set_location_assignment PIN_15 -to CH[1]
+set_location_assignment PIN_16 -to CH[0]
+set_location_assignment PIN_18 -to CLK
+set_location_assignment PIN_8 -to CS[6]
+set_location_assignment PIN_7 -to CS[5]
+set_location_assignment PIN_6 -to CS[4]
+set_location_assignment PIN_5 -to CS[3]
+set_location_assignment PIN_4 -to CS[2]
+set_location_assignment PIN_3 -to CS[1]
+set_location_assignment PIN_2 -to CS[0]
+set_location_assignment PIN_61 -to D[4]
+set_location_assignment PIN_58 -to D[3]
+set_location_assignment PIN_57 -to D[2]
+set_location_assignment PIN_56 -to D[1]
+set_location_assignment PIN_71 -to FSEL
+set_location_assignment PIN_75 -to FSYNC
+set_location_assignment PIN_64 -to MCLK
+set_location_assignment PIN_70 -to PSEL
+set_location_assignment PIN_72 -to RESET
+set_location_assignment PIN_74 -to SCLK
+set_location_assignment PIN_73 -to SDATA
+set_location_assignment PIN_55 -to SW[4]
+set_location_assignment PIN_54 -to SW[3]
+set_location_assignment PIN_53 -to SW[2]
+set_location_assignment PIN_52 -to SW[1]
+set_location_assignment PIN_66 -to SYNC
+set_location_assignment PIN_21 -to ZOUT
+set_location_assignment PIN_17 -to OE
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to LOW_BAT
+set_location_assignment PIN_12 -to LOW_BAT
+set_location_assignment PIN_51 -to SW[5]
+set_location_assignment PIN_26 -to SEL_ANALOG
+set_location_assignment PIN_27 -to SEL_EXT
+set_global_assignment -name VHDL_FILE SEQUENCER.vhdl
+set_global_assignment -name VHDL_FILE PhantomDriver_tb.vhdl
+set_global_assignment -name VHDL_FILE PhantomDriver.vhdl
+set_global_assignment -name VHDL_FILE OUTPUT_PATCH.vhdl
+set_global_assignment -name VHDL_FILE DDS_INIT.vhdl
+set_global_assignment -name VHDL_FILE counter_increment.vhdl
+set_global_assignment -name VHDL_FILE counter_decrement.vhdl
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SW[5]
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SW[4]
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SW[3]
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SW[2]
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SW[1]
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SW
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SYNC

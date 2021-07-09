@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1242.8px" height="195px" viewBox="-10 -10 956 150" version="1.1">
+<![CDATA[
+# Time chart data
+#  https://rawgit.com/osamutake/tchart-coffee/master/bin/editor-offline.html
+#
+
+%150 0 Phantom Driver 動作　Mark=2, Space=1, ECD=50の時
+
+@w_caption 120
+@w_transient 2
+CLK ~_~_~ _~_~_~_~_~_~_~_~_~_~_ ~_::....::~_~_~_~_~_~_~_~_~_~_~_~_ ~_~_~_~_~_~_
+@w_hold 22
+Q_BURST_COUNTER =2X0X1X2X0X1X2X0X1X2X0X1X2X0:...:X0X1X2X0X1X2X0X1X2X0X1X2X0X1X2X0X1X2
+INH  ~~__~__~__~__~:...:~__~__~~~~__~__~__
+Q=0  _~__~__~__~__~:...:~__~__~__~__~__~__
+Q_ECD_COUNTER =50X0==X1==X2==X3==X:...:X48==X49==X50==X0==X1==X2==
+SYNC ~_____________::_______~~_________
+]]>
+<g>
+<text x="150" y="0" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">Phantom Driver 動作　Mark=2, Space=1, ECD=50の時</text>
+<text x="115" y="28.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">CLK</text>
+<text x="481" y="28.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">....</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M122,20H132M132,20L134,30M134,30H144M144,30L146,20M146,20H156M156,20L158,30M158,30H168M168,30L170,20M170,20H180M180,20L182,30M182,30H192M192,30L194,20M194,20H204M204,20L206,30M206,30H216M216,30L218,20M218,20H228M228,20L230,30M230,30H240M240,30L242,20M242,20H252M252,20L254,30M254,30H264M264,30L266,20M266,20H276M276,20L278,30M278,30H288M288,30L290,20M290,20H300M300,20L302,30M302,30H312M312,30L314,20M314,20H324M324,20L326,30M326,30H336M336,30L338,20M338,20H348M348,20L350,30M350,30H360M360,30L362,20M362,20H372M372,20L374,30M374,30H384M384,30L386,20M386,20H396M396,20L398,30M398,30H408M408,30L410,20M410,20H420M420,20L422,30M422,30H432M432,30L434,20M434,20H444M444,20L446,30M446,30H456M506,20H516M516,20L518,30M518,30H528M528,30L530,20M530,20H540M540,20L542,30M542,30H552M552,30L554,20M554,20H564M564,20L566,30M566,30H576M576,30L578,20M578,20H588M588,20L590,30M590,30H600M600,30L602,20M602,20H612M612,20L614,30M614,30H624M624,30L626,20M626,20H636M636,20L638,30M638,30H648M648,30L650,20M650,20H660M660,20L662,30M662,30H672M672,30L674,20M674,20H684M684,20L686,30M686,30H696M696,30L698,20M698,20H708M708,20L710,30M710,30H720M720,30L722,20M722,20H732M732,20L734,30M734,30H744M744,30L746,20M746,20H756M756,20L758,30M758,30H768M768,30L770,20M770,20H780M780,20L782,30M782,30H792M792,30L794,20M794,20H804M804,20L806,30M806,30H816M816,30L818,20M818,20H828M828,20L830,30M830,30H840M840,30L842,20M842,20H852M852,20L854,30M854,30H864M864,30L866,20M866,20H876M876,20L878,30M878,30H888M888,30L890,20M890,20H900M900,20L902,30M902,30H912M912,30L914,20M914,20H924M924,20L926,30M926,30H936" />
+
+<text x="115" y="48.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">Q_BURST_COUNTER</text>
+<text x="133" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="157" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="181" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="205" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="229" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="253" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="277" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="301" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="325" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="349" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="373" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="397" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="421" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="445" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="481" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="517" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="541" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="565" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="589" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="613" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="637" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="661" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="685" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="709" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="733" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="757" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="781" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="805" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="829" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="853" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="877" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="901" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="925" y="48.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M122,50H144M122,40H144M144,40L146,50M144,50L146,40M146,50H168M146,40H168M168,40L170,50M168,50L170,40M170,50H192M170,40H192M192,40L194,50M192,50L194,40M194,50H216M194,40H216M216,40L218,50M216,50L218,40M218,50H240M218,40H240M240,40L242,50M240,50L242,40M242,50H264M242,40H264M264,40L266,50M264,50L266,40M266,50H288M266,40H288M288,40L290,50M288,50L290,40M290,50H312M290,40H312M312,40L314,50M312,50L314,40M314,50H336M314,40H336M336,40L338,50M336,50L338,40M338,50H360M338,40H360M360,40L362,50M360,50L362,40M362,50H384M362,40H384M384,40L386,50M384,50L386,40M386,50H408M386,40H408M408,40L410,50M408,50L410,40M410,50H432M410,40H432M432,40L434,50M432,50L434,40M434,50H456M434,40H456M506,50H528M506,40H528M528,40L530,50M528,50L530,40M530,50H552M530,40H552M552,40L554,50M552,50L554,40M554,50H576M554,40H576M576,40L578,50M576,50L578,40M578,50H600M578,40H600M600,40L602,50M600,50L602,40M602,50H624M602,40H624M624,40L626,50M624,50L626,40M626,50H648M626,40H648M648,40L650,50M648,50L650,40M650,50H672M650,40H672M672,40L674,50M672,50L674,40M674,50H696M674,40H696M696,40L698,50M696,50L698,40M698,50H720M698,40H720M720,40L722,50M720,50L722,40M722,50H744M722,40H744M744,40L746,50M744,50L746,40M746,50H768M746,40H768M768,40L770,50M768,50L770,40M770,50H792M770,40H792M792,40L794,50M792,50L794,40M794,50H816M794,40H816M816,40L818,50M816,50L818,40M818,50H840M818,40H840M840,40L842,50M840,50L842,40M842,50H864M842,40H864M864,40L866,50M864,50L866,40M866,50H888M866,40H888M888,40L890,50M888,50L890,40M890,50H912M890,40H912M912,40L914,50M912,50L914,40M914,50H936M914,40H936" />
+
+<text x="115" y="68.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">INH</text>
+<text x="481" y="68.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M122,60H144M144,60H146M146,60H168M168,60L170,70M170,70H192M192,70H194M194,70H216M216,70L218,60M218,60H240M240,60L242,70M242,70H264M264,70H266M266,70H288M288,70L290,60M290,60H312M312,60L314,70M314,70H336M336,70H338M338,70H360M360,70L362,60M362,60H384M384,60L386,70M386,70H408M408,70H410M410,70H432M432,70L434,60M434,60H456M506,60H528M528,60L530,70M530,70H552M552,70H554M554,70H576M576,70L578,60M578,60H600M600,60L602,70M602,70H624M624,70H626M626,70H648M648,70L650,60M650,60H672M672,60H674M674,60H696M696,60H698M698,60H720M720,60H722M722,60H744M744,60L746,70M746,70H768M768,70H770M770,70H792M792,70L794,60M794,60H816M816,60L818,70M818,70H840M840,70H842M842,70H864M864,70L866,60M866,60H888M888,60L890,70M890,70H912M912,70H914M914,70H936" />
+
+<text x="115" y="88.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">Q=0</text>
+<text x="481" y="88.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M122,90H144M144,90L146,80M146,80H168M168,80L170,90M170,90H192M192,90H194M194,90H216M216,90L218,80M218,80H240M240,80L242,90M242,90H264M264,90H266M266,90H288M288,90L290,80M290,80H312M312,80L314,90M314,90H336M336,90H338M338,90H360M360,90L362,80M362,80H384M384,80L386,90M386,90H408M408,90H410M410,90H432M432,90L434,80M434,80H456M506,80H528M528,80L530,90M530,90H552M552,90H554M554,90H576M576,90L578,80M578,80H600M600,80L602,90M602,90H624M624,90H626M626,90H648M648,90L650,80M650,80H672M672,80L674,90M674,90H696M696,90H698M698,90H720M720,90L722,80M722,80H744M744,80L746,90M746,90H768M768,90H770M770,90H792M792,90L794,80M794,80H816M816,80L818,90M818,90H840M840,90H842M842,90H864M864,90L866,80M866,80H888M888,80L890,90M890,90H912M912,90H914M914,90H936" />
+
+<text x="115" y="108.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">Q_ECD_COUNTER</text>
+<text x="133" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">50</text>
+<text x="181" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="253" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="325" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<text x="397" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">3</text>
+<text x="481" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">...</text>
+<text x="541" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">48</text>
+<text x="613" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">49</text>
+<text x="685" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">50</text>
+<text x="757" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">0</text>
+<text x="829" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">1</text>
+<text x="901" y="108.5" text-anchor="middle" font-size="10" fill="black" font-family="Helvetica">2</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M122,110H144M122,100H144M144,100L146,110M144,110L146,100M146,110H168M146,100H168M168,100H170M168,110H170M170,110H192M170,100H192M192,100H194M192,110H194M194,110H216M194,100H216M216,100L218,110M216,110L218,100M218,110H240M218,100H240M240,100H242M240,110H242M242,110H264M242,100H264M264,100H266M264,110H266M266,110H288M266,100H288M288,100L290,110M288,110L290,100M290,110H312M290,100H312M312,100H314M312,110H314M314,110H336M314,100H336M336,100H338M336,110H338M338,110H360M338,100H360M360,100L362,110M360,110L362,100M362,110H384M362,100H384M384,100H386M384,110H386M386,110H408M386,100H408M408,100H410M408,110H410M410,110H432M410,100H432M432,100L434,110M432,110L434,100M434,110H456M434,100H456M506,110H528M506,100H528M528,100H530M528,110H530M530,110H552M530,100H552M552,100H554M552,110H554M554,110H576M554,100H576M576,100L578,110M576,110L578,100M578,110H600M578,100H600M600,100H602M600,110H602M602,110H624M602,100H624M624,100H626M624,110H626M626,110H648M626,100H648M648,100L650,110M648,110L650,100M650,110H672M650,100H672M672,100H674M672,110H674M674,110H696M674,100H696M696,100H698M696,110H698M698,110H720M698,100H720M720,100L722,110M720,110L722,100M722,110H744M722,100H744M744,100H746M744,110H746M746,110H768M746,100H768M768,100H770M768,110H770M770,110H792M770,100H792M792,100L794,110M792,110L794,100M794,110H816M794,100H816M816,100H818M816,110H818M818,110H840M818,100H840M840,100H842M840,110H842M842,110H864M842,100H864M864,100L866,110M864,110L866,100M866,110H888M866,100H888M888,100H890M888,110H890M890,110H912M890,100H912M912,100H914M912,110H914M914,110H936M914,100H936" />
+
+<text x="115" y="128.5" text-anchor="end" font-size="10" fill="black" font-family="Helvetica">SYNC</text>
+<path stroke-linecap="round" stroke-width="0.6" stroke="black" fill="none" d="M122,120H144M144,120L146,130M146,130H168M168,130H170M170,130H192M192,130H194M194,130H216M216,130H218M218,130H240M240,130H242M242,130H264M264,130H266M266,130H288M288,130H290M290,130H312M312,130H314M314,130H336M336,130H338M338,130H360M360,130H362M362,130H384M384,130H386M386,130H408M408,130H410M410,130H432M432,130H434M434,130H456M506,130H528M528,130H530M530,130H552M552,130H554M554,130H576M576,130H578M578,130H600M600,130H602M602,130H624M624,130H626M626,130H648M648,130H650M650,130H672M672,130L674,120M674,120H696M696,120H698M698,120H720M720,120L722,130M722,130H744M744,130H746M746,130H768M768,130H770M770,130H792M792,130H794M794,130H816M816,130H818M818,130H840M840,130H842M842,130H864M864,130H866M866,130H888M888,130H890M890,130H912M912,130H914M914,130H936" />
+
+</g>
+</svg>
