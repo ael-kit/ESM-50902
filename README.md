@@ -28,7 +28,13 @@
 **(このブロック図はSYNC合成の部分のロジックがちょっと違っていますが、全体像を把握するのには十分です)**
 
 ![](PhantomDriverHDL_BlockDiagram.png)
-##
+
+## Wave Form
+シーケンスを通した全体の波形　まとめ
+
+![](PhantomDriverHDL_WaveForm.png)
+
+## 
 ### SEQUENCER + OUTPUT_PATCH
 __CLK__ にはECD用の発振器と同期したクロックが入ります。
 
