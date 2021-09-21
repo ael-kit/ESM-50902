@@ -32,7 +32,7 @@
 ## Wave Form
 シーケンスを通した全体の波形　まとめ
 
-![](PhantomDriverHDL_WaveForm.png)
+![](PhantomDriver_WaveForm.png)
 
 ## 
 ### SEQUENCER + OUTPUT_PATCH
