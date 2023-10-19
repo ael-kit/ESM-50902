@@ -11,7 +11,7 @@
 --
 --			REV 2.0 2020/04/20 Miyamoto
 -- 			REV 2.1 2020/05/04 Miyamoto
--- 				ライブラリをnumeric_stdに変更　コンフリクトを防止　変数の型指定の明確化
+-- 				ライブラリをnumeric_stdに変更   コンフリクトを防止  変数の型指定の明確化
 -- 				Checked by modelSIM.
 --			REV 2.2 2020/09/01 Miyamoto
 --				FSYNCがアサートされているときCLKをうごかさない（DDSデバイスのタイミング要求と整合）
@@ -56,12 +56,12 @@ constant COMMAND : MEMORY := (X"2020",
 signal 	Q_DIV:			unsigned(9	downto 0);		-- prescaler for MCLK
 
 signal	Q_SEQ:			unsigned(N+1 downto 0);		-- Sequience counter
-signal 	ADD_COUNT:	unsigned(1 downto 0);			-- Address counter for COMMAND words
+signal 	ADD_COUNT:	    unsigned(1 downto 0);			-- Address counter for COMMAND words
 signal	S_REG:			std_logic_vector(2**N-1 downto 0);	-- Output Register
 
-signal	SYNC:					std_logic;	-- Sync signal (internal)
-signal	INT_CLK:			std_logic;	-- Scaled CLK
-signal	CLK_EN:				std_logic;
+signal	SYNC:           std_logic;	-- Sync signal (internal)
+signal	INT_CLK:		std_logic;	-- Scaled CLK
+signal	CLK_EN:			std_logic;
 signal	EN_PRESCALER:	std_logic;
 
 begin
