@@ -1,5 +1,9 @@
 --mem load -i C:/Users/miyam/OneDrive/Documents/HDL/ROM/simulation/modelsim/patch_table.mem -format hex -startaddress 50 -endaddress 0 -update_properties /sim/DUT/ROM
 
+-- SequencerのECD番号と信号出力のマルチプレクサの番号を対応づけるためのテーブルの定義（ROM)
+--      このHDLではROMを構成する回路を定義するだけで、ROMに書き込むデータは"patch_table.mif"で指定します。
+--      ROMのアドレスがSequencerのECD番号で、そのアドレスのデータが信号出力のマルチプレクサの切り替え番号です。
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

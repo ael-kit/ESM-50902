@@ -24,15 +24,18 @@
 --				動作確認済み
 -- 
 -- 		2020/9/8
---		Develop branch
+--		Develop branch -> main
 -- 			Calibration Coil Driver 用に24chに変更
 -- 				DDS Frequency = 80Hz
 --				ECD Channel = 24
 -- 				burst = 24 + 1
 -- 			同時にECD数、バースト波の設定をパラメタ化した。
 -- 			コンパイル確認。回路図確認。
-
-
+-- 
+--      2023/10/19 コメント追加
+--          回路図DR20000193_00(ESM-50902)に対応
+--          ピンアサインはESM50902_24chCoilDriver_pinconfig.csvを参照してください。
+--          
 
 library IEEE;
 use IEEE.std_logic_1164.all;
@@ -147,7 +150,7 @@ begin
 		
 
 -- 回路
-
+    -- LOW＿BAT端子をリセット端子として利用しています。
 	nRES <= LOW_BAT;
 	
 -- テストの場合の動作を規定 INHは常にネゲート、出力チャネルは固定(FIXED_OUTPUT_CH)
